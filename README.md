@@ -1,37 +1,73 @@
 ## What this is
-Code refactoring for Horiseon webpage 
+Responsive Portfolio
 
 ## Technology Used
-HTML and CSS
+HTML, Bootstrap 
 
 ## What you did
-Refactored existing code to meet accessiibility standards without affecting the website 
 
-- added a descriptive title 
-- provided accessible alt attribute tags  
-- replaced non-semantic HTML with semantic HTML elements with logical structure 
-- consolidated redundant CSS elements 
-- added missing links, and alt tags to images
+- created a responsive portfolio utilizing HTML and Bootstrap 
+- created a consistent navbar with functional links for About, Portfolio, and Contact pages
+- utilized Bootstrap components and grid system 
+- created a sticky footer on each page
 
 ## Code Snippets With context as to why you are highlighting it (Do not highlight every line of code)
-Samples of refactored code:
+Snippet of Navbar code:
 
-        <!-- changed div to article tag, added missing id -->
-        <article id="search-engine-optimization" class="search-engine-optimization">
-            <!-- added alt tags, and closed /img tag, brought P to a single line -->
-            <img src="./assets/images/search-engine-optimization.jpg" alt="Search Engine Optimization" class="float-left"></img>
-            <h2>Search Engine Optimization</h2>
-            <p>The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.</p>
-        </article>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Matthew Wu</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link text-info" href="index.html">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-info" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-info" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
 ## Who You Are (links to your LinkedIn & Portfolio - if one exists)
 [LinkedIn](https://www.linkedin.com/in/matthewywu/)
 
 ## Website
 
-[Link to webpage](https://peatysinglemalt.github.io/homework-1/)
+[Link to webpage](https://peatysinglemalt.github.io/homework-2/)
 
 ## Screenshots
 
-![screenshot 1](https://github.com/peatysinglemalt/homework-1/blob/main/assets/images/Screen%20Shot%202020-12-10%20at%2009.01.57.png)
-![screenshot 2](https://github.com/peatysinglemalt/homework-1/blob/main/assets/images/Screen%20Shot%202020-12-10%20at%2009.02.07.png)
+![screenshot 1]
+![screenshot 2]
+
+
+### Minimum Requirements
+
+* Functional, deployed application
+
+* GitHub repository with README describing the project
+
+* Navbar must be consistent on each page.
+
+* Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
+
+* All links must work.
+
+* Must use semantic html.
+
+* Each page must have valid and correct HTML. (use a validation service)
+
+* Must contain your personalized information. (bio, name, images, links to social media, etc.)
+
+* Must properly utilize Bootstrap components and grid system.
+
+### Bonus
+
+* Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (**Hint:** Check out the Bootstrap documentation).
