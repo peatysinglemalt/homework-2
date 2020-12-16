@@ -50,7 +50,7 @@ Snippet of Navbar code:
 
 ## Screenshots
 
-![screenshot 1](https://github.com/peatysinglemalt/homework-2/blob/main/Assets/Images/Screen%20Shot%202020-12-15%20at%2017.59.24.png)
+![screenshot 1](https://github.com/peatysinglemalt/homework-2/blob/main/Assets/Images/Screen%20Shot%202020-12-15%20at%2018.18.08.png)
 ![screenshot 2](https://github.com/peatysinglemalt/homework-2/blob/main/Assets/Images/Screen%20Shot%202020-12-15%20at%2017.59.35.png)
 ![screenshot 3](https://github.com/peatysinglemalt/homework-2/blob/main/Assets/Images/Screen%20Shot%202020-12-15%20at%2017.59.46.png)
 
