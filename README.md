@@ -1,5 +1,5 @@
 ## What this is
-Responsive Portfolio
+Responsive Personal Portfolio
 
 ## Technology Used
 HTML, Bootstrap 
@@ -8,20 +8,25 @@ HTML, Bootstrap
 
 - created a responsive portfolio utilizing HTML and Bootstrap 
 - created a consistent navbar with functional links for About, Portfolio, and Contact pages
+- navbar links accordingly to each page when clicked
+- utilized semantic html 
+- created a deployable portfolio 
 - utilized Bootstrap components and grid system 
 - created a sticky footer on each page
 
 ## Code Snippets With context as to why you are highlighting it (Do not highlight every line of code)
 Snippet of Navbar code:
 
+    <header class="mb-4">
+    <!-- nav bar goes here -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Matthew Wu</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="index.html">Matt</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
     
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
                     <li class="nav-item active">
                         <a class="nav-link text-info" href="index.html">About <span class="sr-only">(current)</span></a>
                     </li>
@@ -34,6 +39,7 @@ Snippet of Navbar code:
                 </ul>
             </div>
         </nav>
+    </header>
 
 ## Who You Are (links to your LinkedIn & Portfolio - if one exists)
 [LinkedIn](https://www.linkedin.com/in/matthewywu/)
@@ -46,7 +52,7 @@ Snippet of Navbar code:
 
 ![screenshot 1]
 ![screenshot 2]
-
+![screenshot 3]
 
 ### Minimum Requirements
 
